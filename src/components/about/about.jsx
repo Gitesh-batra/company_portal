@@ -13,8 +13,18 @@ function About() {
       <p className='desc'>
         <span>Embedd NFC within luxurious items.</span>
         <br/>
+        <div
+          style = {{
+            height: '15px'
+          }}
+          ></div>
         <span>Each NFC will have a unique public ID which connects to the NFT on the blockchain.</span>
         <br/>
+        <div
+          style = {{
+            height: '15px'
+          }}
+          ></div>
         <span>User will be able to verify the authenticity of the item by scanning the NFC with their phone.</span>
         <br/>
       </p>

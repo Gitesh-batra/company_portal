@@ -1,8 +1,11 @@
 .__header {
+  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    padding-top: 2rem;
 }
 .usp{
 font-weight: bold;
@@ -107,7 +110,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 .__header-image img {
@@ -118,6 +121,7 @@ display: flex;
 
 @media screen and (max-width: 1050px) {
     .__header {
+        padding-top: 4rem;
         flex-direction: column;
     }
 

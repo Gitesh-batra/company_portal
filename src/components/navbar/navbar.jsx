@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="wrapper">
-        <div className="logo">
+        <a className="logo"  href="#">
           <img className="logoimg" src="./authcheck.png" alt="" />
           <h3>AuthCheck</h3>
-        </div>
+        </a>
         <div className="menu">
           <a className="a" href="#about"> About Us</a>
           <a className="a" href="#footer"> Contact</a>
