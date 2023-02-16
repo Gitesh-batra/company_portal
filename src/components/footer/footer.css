@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 1rem;
+    color: white;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.social{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 1rem;
+    color: white;
+    margin-top: 1rem;
+    gap: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.s:hover{
+
+    color: gold;
+}
